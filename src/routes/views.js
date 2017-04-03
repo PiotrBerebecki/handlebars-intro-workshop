@@ -2,6 +2,15 @@ module.exports = {
   method: 'GET',
   path: '/',
   handler: (request, reply) => {
-    reply('Welcome to Handlebars 101!');
+    const data = {
+      title: 'Introduction to Handlebars',
+      message: 'Let\s start using templating',
+      user: {
+        firstName: 'Pete',
+        lastName: 'Blanks',
+        role: 'admin'
+      }
+    }
+    reply.view('index', data);
   }
-}
+};

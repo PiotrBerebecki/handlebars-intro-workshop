@@ -1,6 +1,7 @@
 body {
   margin: 0;
   width: 100%;
+  font-family: sans-serif;
 }
 
 .header {
@@ -43,4 +44,3 @@ body {
   font-size: 18px;
   padding: 20px;
 }
-

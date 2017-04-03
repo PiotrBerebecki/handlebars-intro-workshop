@@ -14,7 +14,7 @@ This is a common architectural design pattern to separate the data, their repres
 1. **View**: the aesthetics/representation of data in your application
 1. **Controller**: the *brain* of your application
 
-![A diagram of the MVC model](mvc-diagram.png)
+![A diagram of the model](./demo/mvc-diagram.png)
 
 Image Cred: Real Python (from [this medium post](https://medium.freecodecamp.com/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053#.3autr7o1d))
 
